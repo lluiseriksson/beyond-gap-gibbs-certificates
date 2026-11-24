@@ -1,0 +1,53 @@
+{
+  "eps": 0.1,
+  "certificates": [
+    {
+      "file": "tfim_n2_ferro_b2p0_ldlt.cert.json",
+      "n_tiers": 4,
+      "n_ldlt_witnesses": 7,
+      "T_gap_ub": 7.930007141173,
+      "T_sp_ub": 5.98029389526,
+      "speedup": 1.3260229814889781
+    },
+    {
+      "file": "xxz_n2_stag_b2p0_ldlt.cert.json",
+      "n_tiers": 4,
+      "n_ldlt_witnesses": 7,
+      "T_gap_ub": 6.016437506195,
+      "T_sp_ub": 5.973052661811,
+      "speedup": 1.007263429077293
+    },
+    {
+      "file": "tfim_n4_ferro_b2p5_exact.cert.json",
+      "n_tiers": 15,
+      "n_ldlt_witnesses": 0,
+      "T_gap_ub": 369.086788304219,
+      "T_sp_ub": 111.920165189561,
+      "speedup": 3.297768437699236
+    },
+    {
+      "file": "xxz_n4_stag_b1p5_exact.cert.json",
+      "n_tiers": 19,
+      "n_ldlt_witnesses": 0,
+      "T_gap_ub": 16.336567217244,
+      "T_sp_ub": 10.382251184108,
+      "speedup": 1.5735091482134633
+    },
+    {
+      "file": "depolarizing_n50_exact.cert.json",
+      "n_tiers": 11,
+      "n_ldlt_witnesses": 0,
+      "T_gap_ub": 19.631264606993,
+      "T_sp_ub": 9.056112881517,
+      "speedup": 2.1677362974416177
+    },
+    {
+      "file": "depolarizing_n100_exact.cert.json",
+      "n_tiers": 20,
+      "n_ldlt_witnesses": 0,
+      "T_gap_ub": 36.959944120992,
+      "T_sp_ub": 11.117553034047,
+      "speedup": 3.3244675341600667
+    }
+  ]
+}

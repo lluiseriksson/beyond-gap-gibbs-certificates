@@ -1,0 +1,18 @@
+import BeyondGapGibbs
+
+#print axioms BeyondGapGibbs.weighted_cauchy_schwarz
+#print axioms BeyondGapGibbs.trace_norm_sq_le_chi2
+#print axioms BeyondGapGibbs.christoffel_sum_le_norm
+#print axioms BeyondGapGibbs.super_poincare_from_projection
+#print axioms BeyondGapGibbs.super_poincare_centered
+#print axioms BeyondGapGibbs.super_poincare_envelope_two
+#print axioms BeyondGapGibbs.hull_knot_eq
+#print axioms BeyondGapGibbs.hull_knot_gt_c2
+#print axioms BeyondGapGibbs.hull_tier2_dominates_above
+#print axioms BeyondGapGibbs.hull_tier1_dominates_below
+#print axioms BeyondGapGibbs.integrand_strictly_smaller_above_knot
+#print axioms BeyondGapGibbs.penalty_shift_certifies_perp_gap
+#print axioms BeyondGapGibbs.weyl_perturbation_gap_sound
+#print axioms BeyondGapGibbs.ldlt_quad_nonneg
+#print axioms BeyondGapGibbs.hull_knot_order_iff
+#print axioms BeyondGapGibbs.geometric_tail_term_le

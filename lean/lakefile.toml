@@ -1,0 +1,6 @@
+name = "beyond_gap_gibbs"
+version = "1.0.0"
+defaultTargets = ["BeyondGapGibbs"]
+
+[[lean_lib]]
+name = "BeyondGapGibbs"
