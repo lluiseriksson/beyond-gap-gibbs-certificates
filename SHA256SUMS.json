@@ -9,7 +9,7 @@
   "src/kms_gibbs.py": "b6262ed58c9ddb93ee308ad503864b25cdf50f294e42d9669266c9639cf62be8",
   "src/superpoincare_certifier.py": "03b97a595cc7fceb7d4a2dd4b0ca8712e7b24bc8ad76fd2a2ac01dff17481c21",
   "scripts/run_all_experiments.py": "1a3c7c6eba5550de22e4317913da9290cbe681e163f8a3a942ab717cb9047110",
-  "scripts/make_figures.py": "53626d39e5636d79122582af310522c346585148938c844c7089c9fdc29f0bc2",
+  "scripts/make_figures.py": "0ad611f2af9c9860256a9d054e477a738906a7e3604d59e8bb67604839b1ed24",
   "scripts/verify_all.py": "0ab01b904261a947c1ce11bc6aa91caf93f518f2e888d29fecf5c1e958f9c876",
   "tests/test_suite.py": "c4f4f35443176400726de596b19c4d134f2d0f331428a68ba41375e5cb67256b",
   "results/experiment1_1d_kms_gibbs_chains.json": "b5637333e506d25f78c45d4af2ba110e61bb305986f4639ef4f149affd1f5516",
@@ -22,12 +22,12 @@
   "results/rational_certificates/xxz_n4_stag_b1p5_exact.cert.json": "e2ff781e1b0ecdb71140122d586494e9f7d71ecd20b3f1b125fa901ae6824672",
   "results/rational_certificates/depolarizing_n50_exact.cert.json": "e61d0ec0bcad4064fe50631709e6277c0214545f4103d50789cdeaba89103f33",
   "results/rational_certificates/depolarizing_n100_exact.cert.json": "592c704ea08190d1df314bc8d45d23b9eafa7c723f1649aa90dbe697138f0f97",
-  "paper/main.tex": "870b8fb566d036173888fd707789bd2c30449d6fa6d894700fd1eac53816cfcc",
+  "paper/main.tex": "54da15120b6a7d19da3b1f2121327a6c7821403cec1e4ea0d9b8e1ff7d6279c3",
   "paper/references.bib": "c89484bfa0a64eb0a156d01992aa0ccbe691da3a3a56c053afcb90dbc1cb8dc0",
-  "paper/figures/fig1_1d_kms_trajectories.pdf": "fa6e9b804386ab7e8def16dbe6ac1bd27eb17a52d97e31b00d808c9149955760",
+  "paper/figures/fig1_1d_kms_trajectories.pdf": "fefca1855fe534db25712b6a67b413f0d6c29e71b2939ec66de7d31c8138a9a8",
   "paper/figures/fig1_1d_kms_trajectories.png": "4d42461b89d0428cba35dd9b66b6d3acd33afd72ced14db5a9b6692f66d00e4d",
-  "paper/figures/fig2_scaling_and_alpha_phases.pdf": "1600625456c93cc010e9b1584d425947a50221543bef4f095f8ea4c794a43ccd",
-  "paper/figures/fig2_scaling_and_alpha_phases.png": "e62f64fc0b3da592def9cd80aff95c41627077325d9d9716bbdd20c1d5ec16c4",
-  "paper/figures/fig3_sharpness_and_speedups.pdf": "0325535ce58e9822d25c1f5ff3b6a38e5ad3e3e4fb50ec7061a2f12ec7f8a02a",
-  "paper/figures/fig3_sharpness_and_speedups.png": "1c45d6feef0a9f49785907021c83c5271e04d2dd95674ab8ad3fcc281d34f178"
+  "paper/figures/fig2_scaling_and_alpha_phases.pdf": "a48895e9d28b5bcdd46901ce2169a27405228a7b74da189444b25f2cb35870a7",
+  "paper/figures/fig2_scaling_and_alpha_phases.png": "64b10cb00a8e2392acfff01f93a7d367a2eb5a5262861115bf486985fea99da9",
+  "paper/figures/fig3_sharpness_and_speedups.pdf": "097122d8ab1fa59d7b7282bf9160000dd69f2751999831221efb1461265c16a9",
+  "paper/figures/fig3_sharpness_and_speedups.png": "7352d466c99d9c29379cd8184c8a4381b58ecd968813293f2a292538c0abc247"
 }

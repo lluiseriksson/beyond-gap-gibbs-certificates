@@ -88,9 +88,9 @@ def make_fig2():
     ax1.loglog(ns, [r["T_gap"] for r in sc], "^:", color="#d62728", linewidth=1.8, markersize=6,
                label=r"Spectral gap $T_{\mathrm{gap}} = \Theta(n)$")
     ax1.loglog(ns, [r["T_sp_christoffel"] for r in sc], "s--", color="#ff7f0e", linewidth=1.9, markersize=5.5,
-               label=r"Christoffel $T_{\mathrm{SP}} = O(\log^2 n)$")
+               label=r"Universal Christoffel ($c=3$, all states)")
     ax1.loglog(ns, [r["T_sp_bloch"] for r in sc], "o-", color="#1f77b4", linewidth=2.0, markersize=6,
-               label=r"Bloch-sharp $T_{\mathrm{SP}} = O(\log^2 n)$")
+               label=r"Product-state Bloch ($c=1$, product semigroups)")
     ax1.set_xlabel(r"System size $n$ (qubits)")
     ax1.set_ylabel(r"Certified mixing time $T(\varepsilon=0.1)$")
     ax1.set_title(r"(a) Pure $L^1 \to L^2$ Speedup: $O(n)$ vs. $O(\log^2 n)$")
@@ -159,7 +159,7 @@ def make_fig3():
     ax2.set_xticklabels(short_labels, fontsize=7.6)
     ax2.set_ylabel(r"Certified exact-$\mathbb{Q}$ speedup $T_{\mathrm{gap}}^{\mathbb{Q}} / T_{\mathrm{SP}}^{\mathbb{Q}}$")
     ax2.set_ylim(0, max(speedups) * 1.18)
-    ax2.set_title(r"(b) Zero-Float-Trust Exact-$\mathbb{Q}$ Certified Speedups")
+    ax2.set_title(r"(b) Exact-$\mathbb{Q}$ Verified Speedups (Quantized Bundle)")
 
     fig.tight_layout()
     fig.savefig(os.path.join(FIG_DIR, "fig3_sharpness_and_speedups.pdf"))
